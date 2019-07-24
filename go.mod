@@ -16,7 +16,7 @@ require (
 	github.com/go-xorm/builder v0.3.4 // indirect
 	github.com/go-xorm/core v0.6.2
 	github.com/go-xorm/xorm v0.7.1
-	github.com/golang/protobuf v1.3.1
+	github.com/golang/protobuf v1.3.2
 	github.com/jakecoffman/cron v0.0.0-20190106200828-7e2009c226a5
 	github.com/klauspost/compress v1.5.0 // indirect
 	github.com/klauspost/cpuid v1.2.1 // indirect
@@ -25,14 +25,31 @@ require (
 	github.com/rakyll/statik v0.1.6
 	github.com/sirupsen/logrus v1.4.2
 	github.com/urfave/cli v1.20.0
-	golang.org/x/crypto v0.0.0-20190530122614-20be4c3c3ed5 // indirect
-	golang.org/x/net v0.0.0-20190522155817-f3200d17e092
-	golang.org/x/sync v0.0.0-20181108010431-42b317875d0f // indirect
-	golang.org/x/text v0.3.2 // indirect
-	google.golang.org/genproto v0.0.0-20190530194941-fb225487d101 // indirect
-	google.golang.org/grpc v1.21.0
+	golang.org/x/net v0.0.0-20190620200207-3b0461eec859
+	google.golang.org/grpc v1.21.1
 	gopkg.in/alexcesaro/quotedprintable.v3 v3.0.0-20150716171945-2caba252f4dc // indirect
 	gopkg.in/gomail.v2 v2.0.0-20160411212932-81ebce5c23df // indirect
 	gopkg.in/ini.v1 v1.42.0
 	gopkg.in/macaron.v1 v1.3.2
+)
+
+replace (
+	cloud.google.com/go => github.com/googleapis/google-cloud-go v0.43.0
+	golang.org/x/crypto => github.com/golang/crypto v0.0.0-20190701094942-4def268fd1a4
+	golang.org/x/exp => github.com/golang/exp v0.0.0-20190718202018-cfdd5522f6f6
+	golang.org/x/image => github.com/golang/image v0.0.0-20190703141733-d6a02ce849c9
+	golang.org/x/lint => github.com/golang/lint v0.0.0-20190409202823-959b441ac422
+	golang.org/x/mobile => github.com/golang/mobile v0.0.0-20190719004257-d2bd2a29d028
+	golang.org/x/mod => github.com/golang/mod v0.1.0
+	golang.org/x/net => github.com/golang/net v0.0.0-20190724013045-ca1201d0de80
+	golang.org/x/oauth2 => github.com/golang/oauth2 v0.0.0-20190604053449-0f29369cfe45
+	golang.org/x/sync => github.com/golang/sync v0.0.0-20190423024810-112230192c58
+	golang.org/x/sys => github.com/golang/sys v0.0.0-20190712062909-fae7ac547cb7
+	golang.org/x/text => github.com/golang/text v0.3.2
+	golang.org/x/time => github.com/golang/time v0.0.0-20190308202827-9d24e82272b4
+	golang.org/x/tools => github.com/golang/tools v0.0.0-20190723021737-8bb11ff117ca
+	google.golang.org/api => github.com/googleapis/google-api-go-client v0.7.0
+	google.golang.org/appengine => github.com/golang/appengine v1.6.1
+	google.golang.org/genproto => github.com/google/go-genproto v0.0.0-20190716160619-c506a9f90610
+	google.golang.org/grpc => github.com/grpc/grpc-go v1.22.0
 )

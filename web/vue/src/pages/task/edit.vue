@@ -85,7 +85,7 @@
             </el-form-item>
           </el-col>
           <el-col :span="8" v-if="form.protocol === 1 ">
-            <el-form-item label="请求方法">
+            <el-form-item label="请求方法(url$$json$$body)">
               <el-select key="http-method" v-model.trim="form.http_method">
                 <el-option
                   v-for="item in httpMethods"
